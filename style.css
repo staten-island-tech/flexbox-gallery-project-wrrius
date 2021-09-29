@@ -1,0 +1,10 @@
+html,
+body,
+* {
+  background-color: deepskyblue;
+  color: white;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 62.5%; /* Normally 100%=16px 62.5%=10px */
+}

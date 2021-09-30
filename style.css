@@ -8,3 +8,12 @@ body,
   margin: 0;
   font-size: 62.5%; /* Normally 100%=16px 62.5%=10px */
 }
+.title {
+  font-size: 4rem; /*rem uses root font size opf page. */
+}
+.rem-size {
+  font-size: 1rem; 
+ }
+ .em-size {
+   font-size: 1em; /* uses its parent's font size */
+ }

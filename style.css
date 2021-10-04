@@ -11,8 +11,14 @@ body,
 .title {
   font-size: 4rem; /*rem uses root font size opf page. */
 }
-.Image-Card-Text {
+.Image-Card-parent {
   font-size: 4rem;
+}
+.Image-Card {
+  display: flex;
+  justify-content: center;
+  border: solid brown;
+  align-items: center;
 }
 .rem-size {
   font-size: 1rem; 

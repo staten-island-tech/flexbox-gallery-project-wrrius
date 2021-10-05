@@ -7,16 +7,21 @@ body,
   box-sizing: border-box;
   margin: 0;
   font-size: 62.5%; /* Normally 100%=16px 62.5%=10px */
-  height: 60rem;
-  width: 60rem;
 }
 .title {
   font-size: 4rem; /*rem uses root font size opf page. */
+}
+.Image {
+  border: hidden 2rem green;
 }
 .Image-Card {
   font-size: 4rem;
   display: flex;
   flex-direction: row;
+  height: 60rem;
+  width: 60rem;
+  text-align: center;
+  margin: 0 0 0 0;
 }
 .rem-size {
   font-size: 1rem;

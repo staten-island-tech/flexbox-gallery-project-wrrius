@@ -7,22 +7,20 @@ body,
   box-sizing: border-box;
   margin: 0;
   font-size: 62.5%; /* Normally 100%=16px 62.5%=10px */
+  height: 60rem;
+  width: 60rem;
 }
 .title {
   font-size: 4rem; /*rem uses root font size opf page. */
 }
-.Image-Card-parent {
-  font-size: 4rem;
-}
 .Image-Card {
+  font-size: 4rem;
   display: flex;
-  justify-content: center;
-  border: solid brown;
-  align-items: center;
+  flex-direction: row;
 }
 .rem-size {
-  font-size: 1rem; 
- }
- .em-size {
-   font-size: 1em; /* uses its parent's font size */
- }
+  font-size: 1rem;
+}
+.em-size {
+  font-size: 1em; /* uses its parent's font size */
+}

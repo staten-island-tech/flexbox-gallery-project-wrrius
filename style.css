@@ -7,25 +7,42 @@ body,
   box-sizing: border-box;
   margin: 0;
   font-size: 62.5%; /* Normally 100%=16px 62.5%=10px */
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
 }
 .title {
   font-size: 4rem; /*rem uses root font size opf page. */
 }
-.Image {
-  border: hidden 2rem green;
-}
 .Image-Card {
-  font-size: 4rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: row;
-  height: 60rem;
-  width: 60rem;
-  text-align: center;
-  margin: 0 0 0 0;
+  justify-content: space-evenly;
 }
-.rem-size {
-  font-size: 1rem;
+.Dentist {
+  box-shadow: 1rem 1rem 1rem white;
 }
-.em-size {
-  font-size: 1em; /* uses its parent's font size */
+.Dictator {
+  box-shadow: 1rem 1rem 1rem #a80a07;
+}
+.Gus {
+  box-shadow: 1rem 1rem 1rem #183547;
+}
+.Fast-Food {
+  box-shadow: 1rem 1rem 1rem #35676f;
+}
+.Star-Wars {
+  box-shadow: 1rem 1rem 1rem #b2c2cf;
+}
+.Jorge {
+  box-shadow: 1rem 1rem 1rem #294143;
+}
+.Walt {
+  box-shadow: 1rem 1rem 1rem #9f8165;
+}
+.The-Boy {
+  box-shadow: 1rem 1rem 1rem #f5f9fa;
+}
+.Real {
+  box-shadow: 1rem 1rem 1rem #090c11;
 }
